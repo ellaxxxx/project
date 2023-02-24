@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .header-div{
+            display: flex;
+            flex-direction: row;
+            border: 2px solid rgb(163, 30, 52);
+            color: rgb(163, 30, 52);
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            position: fixed;
+            left: 0;
+            right: 0;
+        }
+
+        h2{
+            margin: 0;
+        }
+        b{
+            font-stretch: ultra-expanded;
+        }
+        .icon-div{
+            flex: 1;
+            text-align: center;
+        }
+        .button-div{
+            width: 200px;
+            display: inline-block;
+        }
+
+        .login-button{
+            padding: 10px 20px;
+            background-color: white;
+            color: rgb(163, 30, 52);
+            border: none;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-left: 0px;
+        }
+        .signup-button{
+            padding: 10px 20px;
+            background-color: white;
+            color: rgb(163, 30, 52);
+            border: 1px solid rgb(163, 30, 52);
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-left: 0px;
+        }
+
+        .login-button:hover{
+            background-color: rgb(163, 30, 52);
+            color: white;
+        }
+        
+        .signup-button:hover{
+            background-color: rgb(163, 30, 52);
+            color: white;
+        }
+
+        nav{
+            background-color: rgb(160, 146, 148);
+            color: rgb(19, 14, 14);
+            text-align: center;
+            padding-top: 90px;
+            position: fixed;
+            display: block;
+        }
+        .nav-content{
+            display: inline-block;
+            margin: 10px;
+            font-size: 20px;
+        }   
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-div">
+         <div class="icon-div">
+             <h2>GOLDEN<san>-ELLA</san></h2>
+             <b>beauty choice</b>
+         </div>
+ 
+         <div class="button-div">
+             <a href="Login.html"><button>Login</button></a>
+             
+             <a href="FORM.HTML"><button>Sign up</button></a>
+         </div>
+         </div>
+       
+    </header>
+    <nav>
+        <a href="#men"><button>Men</button></a>
+        <a href="#Women"><button>Women</button></a>
+        <a href="#Casual"><button>casual</button></a>
+    </nav>
+ 
+   <section id="men">
+        <div class="cloth-div">
+            <div class="cloth-sub-div">
+                <img src="boxer.jpg.jpg " width="" height="">
+                <p>image content</p>
+            </div>       
+         </div>
+         
+        <div class="cloth-div">
+            <div class="cloth-sub-div">
+                <img src="trouser.jpg.jpg" width="" height="">
+                <p>image content</p>
+            </div>       
+         </div>
+   </section>
+
+   <section id="Women">
+    <div class="cloth-div">
+        <div class="cloth-sub-div">
+            <img src="gown.jpg.jpg" width="" height="">
+            <p>image content</p>
+        </div>       
+     </div>
+     
+    <div class="cloth-div">
+        <div class="cloth-sub-div">
+            <Video src="VID.MP4.mp4" controls ></Video>
+            <p>image content</p>
+        </div> 
+        <div class="cloth-div">
+        <div class="cloth-sub-div"> 
+            <img src="image"width="" height="">
+     </div>
+   </section>
+
+   <section id="Casual">
+    <div class="cloth-div">
+        <div class="cloth-sub-div"> 
+            <img src="casual.jpg.jpg"width="" height="">
+     </div>
+   </section>
+</body>
+</html>
